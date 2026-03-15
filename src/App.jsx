@@ -16,7 +16,21 @@ function App() {
         <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-2">
           Raymond Liu
         </h1>
-        <p className="text-slate-400 mb-8">2026 Sport Plan — Monthly Review</p>
+        <p className="text-slate-400 mb-4">2026 Sport Plan — Monthly Review</p>
+
+        {/* About me */}
+        <div className="w-full max-w-3xl mb-8 bg-white/5 border border-white/10 rounded-2xl p-6">
+          <h2 className="text-lg font-bold text-indigo-300 mb-3">關於我</h2>
+          <p className="text-slate-300 leading-relaxed mb-3">
+            AI的小白，希望透過不斷的實作練習，可以學習到更多東西，可以幫助自己的生活。
+          </p>
+          <p className="text-cyan-400 font-medium italic mb-3">
+            「天行健，君子以自強不息」
+          </p>
+          <p className="text-slate-400 text-sm">
+            無論是不是休假，要維持自己的正常生活、飲食、運動、學習以及隨時隨地的放鬆自己
+          </p>
+        </div>
 
         {/* Progress bar */}
         <div className="w-full max-w-3xl mb-8">
